@@ -2,13 +2,19 @@ html {
   box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 img {
   width: 100%;
 }
 
 .nav {
+  font-size: 1.2em;
   list-style-type: none;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
 a {
@@ -22,31 +28,43 @@ a:hover {
   border-color: #8f2440;
 }
 
+figcaption {
+  font-style: italic;
+}
+
 body {
   background-color: #c9b5ab;
 }
 
-h1 {
+h1, h2 {
+  font-size: 1.5em;
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
-.serif {
-  font-family: "PT Serif", serif;
-}
-
 p {
-  font-family: "PT Serif", serif;
   font-weight: normal;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
 
+dt {
+  font-weight: bold;
+}
 
+.germination {
+  font-weight: bold;
+}
 
 .greek {
   list-style-type: lower-greek;
 }
 
+.serving {
+  font-style: italic;
+}
+
 blockquote {
-  font-family: "PT Sans", serif;
+  font-style: italic;
+  font-size: 1.5em;
 }
