@@ -3,11 +3,17 @@ html {
 }
 
 img {
-  width=
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
 }
 
 a {
-  text-decoration: #8f2440
+  text-decoration: #222;
+  color: #8f2440;
 }
 
 a:hover {
@@ -22,15 +28,25 @@ body {
 
 h1 {
   font-family: "PT Sans", sans-serif;
-  color: #3f1622
+  color: #3f1622;
 }
-
 
 .serif {
   font-family: "PT Serif", serif;
 }
 
 p {
+  font-family: "PT Serif", serif;
   font-weight: normal;
-  line-height: 1.5
+  line-height: 1.5;
+}
+
+
+
+.greek {
+  list-style-type: lower-greek;
+}
+
+blockquote {
+  font-family: "PT Sans", serif;
 }
