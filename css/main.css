@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+img {
+  width=
+}
+
+a {
+  text-decoration: #8f2440
+}
+
+a:hover {
+  text-decoration: #222;
+  background-color: #c9b5ab;
+  border-color: #8f2440;
+}
+
+body {
+  background-color: #c9b5ab;
+}
+
+h1 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622
+}
+
+
+.serif {
+  font-family: "PT Serif", serif;
+}
+
+p {
+  font-weight: normal;
+  line-height: 1.5
+}
